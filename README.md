@@ -68,14 +68,8 @@ $interval = \interval(2)->step(-1);
 
 ### Shortcut definition
 
-Just a little insanity, why not? %)
-
+Just a little insanity, why not? Just do not ask how it works!
 ```php
 $interval = \interval(1...5);
 // [1, 2, 3, 4, 5]
-```
-
-```php
-$interval = \interval(1..-.1);
-// [1, 0, -1]
 ```
